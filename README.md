@@ -6,6 +6,7 @@ This project focuses on identifying sales trends and operational peaks within an
 * **Dataset:** Analyzed the cleaned version of the dataset (**BAYS_Invoices_Clean**).
 * **Weekly Trend:** Identified that **Thursday** is the busiest day of the week in terms of transaction volume and revenue.
 * **Monthly Seasonality:** Detected a significant sales peak in **November**, likely due to seasonal campaigns and holiday shopping.
+* Return Rate Analysis: Investigated product return rates and identified key drivers for churn.
 
 ### 🛠 Tech Stack
 * **SQL:** Data extraction and pre-processing.

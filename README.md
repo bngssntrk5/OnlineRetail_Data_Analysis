@@ -1,14 +1,23 @@
-# Online Retail Sales Analysis
+🚀 Key Insights & Descriptive Analysis
+1. 📅 Sales Trends & Seasonality
+Weekly & Monthly Trends: Satış hacimleri zaman serisi analizi ile incelenerek mevsimsel zirveler (Kasım ve Aralık ayları) tespit edilmiştir.
 
-This project focuses on identifying sales trends and operational peaks within an e-commerce dataset. The primary goal is to provide actionable insights for logistics and inventory management.
+Operational Intensity: Haftalık satış dağılımı incelendiğinde, operasyonel yoğunluğun en yüksek olduğu günler belirlenerek lojistik planlama için veri sağlanmıştır.
 
-### 📊 Key Insights
-* **Dataset:** Analyzed the cleaned version of the dataset (**BAYS_Invoices_Clean**).
-* **Weekly Trend:** Identified that **Thursday** is the busiest day of the week in terms of transaction volume and revenue.
-* **Monthly Seasonality:** Detected a significant sales peak in **November**, likely due to seasonal campaigns and holiday shopping.
-* Return Rate Analysis: Investigated product return rates and identified key drivers for churn.
-* Pareto Analysis (80/20 Rule): Identified the top 20% of products and customers that generate 80% of the total revenue, enabling data-driven inventory prioritization.
+2. 🌍 Geographical Market Analysis 
+In this phase (FAZ 1: HAZIRLIK & TANI), I conducted a deep dive into the geographical distribution of sales to identify market dominance and growth opportunities.
 
-### 🛠 Tech Stack
-* **SQL:** Data extraction and pre-processing.
-* **Python (Pandas & Matplotlib):** Data manipulation and professional visualization.# OnlineRetail_Data_Analysis
+Market Share: Analyzed that the United Kingdom accounts for 83.1% of the total revenue, confirming its position as the primary market.
+
+Order Volume: While the UK leads in transaction count (33,517 orders), international markets ("Other Countries") show a significantly higher Average Order Value (AOV).
+
+Strategic Outcome: This analysis suggests that while the UK requires logistical focus, international markets hold high-value potential for targeted marketing campaigns.
+
+🛠 Tech Stack & Data Handling
+Languages & Libraries: Python (Pandas, Matplotlib, PyODBC).
+
+Database: SQL Server (Data cleaning and aggregation).
+
+Data Integration: Automated the data retrieval process using Python to read from localized SQL exports (CSV).
+
+Handling Regional Data Formats: Implemented custom data cleaning scripts to handle European decimal formats (comma vs. dot) and specific delimiters (semicolon).

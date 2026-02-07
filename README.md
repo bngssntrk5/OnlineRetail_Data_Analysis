@@ -5,7 +5,7 @@ Weekly & Monthly Trends: Satış hacimleri zaman serisi analizi ile incelenerek 
 Operational Intensity: Haftalık satış dağılımı incelendiğinde, operasyonel yoğunluğun en yüksek olduğu günler belirlenerek lojistik planlama için veri sağlanmıştır.
 
 2. 🌍 Geographical Market Analysis 
-In this phase (FAZ 1: HAZIRLIK & TANI), I conducted a deep dive into the geographical distribution of sales to identify market dominance and growth opportunities.
+In this phase, I conducted a deep dive into the geographical distribution of sales to identify market dominance and growth opportunities.
 
 Market Share: Analyzed that the United Kingdom accounts for 83.1% of the total revenue, confirming its position as the primary market.
 

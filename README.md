@@ -32,3 +32,8 @@ Identified and resolved a critical data scaling issue where pricing was ingested
 Implemented a custom DAX logic (/ 100) to normalize the Total Revenue to 17M and correct the Average Basket Size from an inflated 47K to a realistic 466.
 
 UI/UX Design: Developed a high-fidelity "Mission Control" dashboard in Power BI featuring custom diagonal gradient backgrounds and neon-accented KPIs for enhanced visual hierarchy.
+
+![Dashboard Overview](images/image_85e541.jpg)
+
+![Customer Analysis](images/image_85e57b.jpg)
+

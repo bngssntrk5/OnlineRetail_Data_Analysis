@@ -1,33 +1,34 @@
-🚀 Key Insights & Descriptive Analysis
-1. 📅 Sales Trends & Seasonality
-Weekly & Monthly Trends: Satış hacimleri zaman serisi analizi ile incelenerek mevsimsel zirveler (Kasım ve Aralık ayları) tespit edilmiştir.
+E-Commerce Strategic Analytics & Customer Segmentation
+This project delivers a comprehensive end-to-end data analytics solution, transforming raw transactional data into actionable business intelligence. It focuses on identifying high-value customer behaviors and optimizing regional sales strategies through advanced data cleaning and RFM modeling.
 
-Operational Intensity: Haftalık satış dağılımı incelendiğinde, operasyonel yoğunluğun en yüksek olduğu günler belirlenerek lojistik planlama için veri sağlanmıştır.
+Key Insights & Descriptive Analysis
+1. Sales Trends & Seasonality
+Temporal Peaks: Time-series analysis identified significant seasonal surges during November and December, likely driven by year-end promotional activities.
 
-2. 🌍 Geographical Market Analysis
-Market Share: Analyzed that the United Kingdom accounts for 83.1% of the total revenue, confirming its position as the primary market.
+Operational Intensity: Weekly distribution analysis revealed that 89.7% of sales occur during weekdays, providing a data-driven foundation for optimizing logistics and staffing schedules.
 
-Order Volume: While the UK leads in transaction count (33,517 orders), international markets ("Other Countries") show a significantly higher Average Order Value (AOV).
+2. Geographical Market Analysis
+Market Concentration: The United Kingdom dominates the portfolio, accounting for 83.1% of total revenue.
 
-Strategic Outcome: This analysis suggests that while the UK requires logistical focus, international markets hold high-value potential for targeted marketing campaigns.
+AOV Disparity: Despite the UK's high transaction volume (33,517 orders), international markets show a significantly higher Average Order Value (AOV), suggesting a high-tier customer base in regions like the Netherlands and Australia.
 
-3. 👥 Behavioral Customer Segmentation (RFM Analysis)
-Metric Calculation: Processed 779,325 transaction rows to create 5,873 unique customer profiles based on Recency, Frequency, and Monetary values.
+3. Behavioral Customer Segmentation (RFM)
+Granular Profiling: Processed 779,325 rows to distill 5,873 unique customer profiles based on Recency, Frequency, and Monetary scores.
 
-Strategic Categorization: Customers were classified into 10 distinct segments (e.g., Champions, Hibernating, At Risk) using quintile-based scoring and Regex mapping.
+Strategic Segmentation: Implemented Regex-based mapping to classify customers into 10 segments. Identified 837 "Champions" as the primary loyalty drivers and 1,518 "Hibernating" users as key targets for re-engagement.
 
-Segment Insights: Identified 837 "Champions" as the core loyalty group and 1,518 "Hibernating" customers as the primary target for re-activation campaigns.
+4. Pareto (80/20) Optimization
+Revenue Drivers: Analysis confirmed that the top 20% of customers and products generate approximately 80% of the total revenue, allowing for highly targeted resource allocation.
 
-4. 📊 Pareto (80/20) Optimization
-Value Concentration: Identified that the top 20% of customers and products generate approximately 80% of total revenue.
-
-Resource Management: This analysis enables the business to optimize resource allocation, focusing marketing and high-tier support on the most impactful customer segments.
-
-🛠 Tech Stack & Data Handling
+Tech Stack & Advanced Data Handling
 Languages & Libraries: Python (Pandas, Matplotlib, PyODBC).
 
-Database: SQL Server (Data cleaning and aggregation via BAYS_Invoices_Clean table).
+Database: SQL Server (BAYS_Invoices_Clean).
 
-Data Integration: Automated the data retrieval process using Python to read from localized SQL exports (CSV).
+Data Integrity & Correction:
 
-Handling Regional Data Formats: Implemented custom data cleaning scripts to handle European decimal formats (comma vs. dot), specific delimiters (semicolon), and numeric precision rounding (Monetary rounding).
+Identified and resolved a critical data scaling issue where pricing was ingested at 100x its actual value (e.g., 595 instead of 5.95).
+
+Implemented a custom DAX logic (/ 100) to normalize the Total Revenue to 17M and correct the Average Basket Size from an inflated 47K to a realistic 466.
+
+UI/UX Design: Developed a high-fidelity "Mission Control" dashboard in Power BI featuring custom diagonal gradient backgrounds and neon-accented KPIs for enhanced visual hierarchy.

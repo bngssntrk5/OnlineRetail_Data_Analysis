@@ -33,7 +33,7 @@ Implemented a custom DAX logic (/ 100) to normalize the Total Revenue to 17M and
 
 UI/UX Design: Developed a high-fidelity "Mission Control" dashboard in Power BI featuring custom diagonal gradient backgrounds and neon-accented KPIs for enhanced visual hierarchy.
 
-![Dashboard Overview](images/image_85e541.jpg)
+<img width="1390" height="732" alt="Overview (2)" src="https://github.com/user-attachments/assets/1800560e-938f-4224-aeb6-e9fc0489c034" />
 
-![Customer Analysis](images/image_85e57b.jpg)
+<img width="1368" height="730" alt="CustomerInsight" src="https://github.com/user-attachments/assets/5e4b9cce-399a-4c44-bdc0-b1dc54fb54f8" />
 

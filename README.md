@@ -31,9 +31,16 @@ Identified and resolved a critical data scaling issue where pricing was ingested
 
 Implemented a custom DAX logic (/ 100) to normalize the Total Revenue to 17M and correct the Average Basket Size from an inflated 47K to a realistic 466.
 
-UI/UX Design: Developed a high-fidelity "Mission Control" dashboard in Power BI featuring custom diagonal gradient backgrounds and neon-accented KPIs for enhanced visual hierarchy.
+sign: Developed a high-fidelity "Mission Control" dashboard in Power BI featuring custom diagonal gradient backgrounds and neon-accented KPIs for enhanced visual hierarchy.
 
-<img width="1390" height="732" alt="Overview (2)" src="https://github.com/user-attachments/assets/1800560e-938f-4224-aeb6-e9fc0489c034" />
 
-<img width="1368" height="730" alt="CustomerInsight" src="https://github.com/user-attachments/assets/5e4b9cce-399a-4c44-bdc0-b1dc54fb54f8" />
+UI/UX De<img width="993" height="708" alt="Overview" src="https://github.com/user-attachments/assets/cabcd9ae-9672-4e81-b189-c3df08b513b3" />
 
+
+<img width="995" height="709" alt="CustomerInsight" src="https://github.com/user-attachments/assets/dbc9bfc5-9aab-427d-80b1-61664889551c" />
+
+
+<img width="995" height="709" alt="ProductPerformance" src="https://github.com/user-attachments/assets/54eac353-cb00-463f-93e2-08f634ca2f3a" />
+
+
+<img width="996" height="710" alt="TimeBasedAnalysis" src="https://github.com/user-attachments/assets/03d2bc2b-82ab-46c5-9058-e276e6be6db0" />

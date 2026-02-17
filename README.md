@@ -32,15 +32,16 @@ Identified and resolved a critical data scaling issue where pricing was ingested
 Implemented a custom DAX logic (/ 100) to normalize the Total Revenue to 17M and correct the Average Basket Size from an inflated 47K to a realistic 466.
 
 sign: Developed a high-fidelity "Mission Control" dashboard in Power BI featuring custom diagonal gradient backgrounds and neon-accented KPIs for enhanced visual hierarchy.
+<img width="1246" height="664" alt="Ekran görüntüsü 2026-02-17 235438" src="https://github.com/user-attachments/assets/2b965dd7-ea96-40e5-9595-ff94f0c44a15" />
 
 
-<img width="993" height="708" alt="Overview" src="https://github.com/user-attachments/assets/cabcd9ae-9672-4e81-b189-c3df08b513b3" />
+<img width="1244" height="659" alt="Ekran görüntüsü 2026-02-17 235550" src="https://github.com/user-attachments/assets/beedb7de-93c2-4c03-a7dd-bf35d92446e4" />
 
 
-<img width="995" height="709" alt="CustomerInsight" src="https://github.com/user-attachments/assets/dbc9bfc5-9aab-427d-80b1-61664889551c" />
+<img width="1246" height="667" alt="Ekran görüntüsü 2026-02-17 235645" src="https://github.com/user-attachments/assets/4c2b5a1e-08fa-4686-bba7-fc892fa635af" />
 
 
-<img width="995" height="709" alt="ProductPerformance" src="https://github.com/user-attachments/assets/54eac353-cb00-463f-93e2-08f634ca2f3a" />
+<img width="1241" height="664" alt="Ekran görüntüsü 2026-02-17 235508" src="https://github.com/user-attachments/assets/37a8a4f6-2aa1-4c91-b2c9-db3c92dc292e" />
 
 
-<img width="996" height="710" alt="TimeBasedAnalysis" src="https://github.com/user-attachments/assets/03d2bc2b-82ab-46c5-9058-e276e6be6db0" />
+<img width="1245" height="666" alt="Ekran görüntüsü 2026-02-17 235516" src="https://github.com/user-attachments/assets/749cd285-b264-46e5-b843-a3235d508925" />
